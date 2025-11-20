@@ -13,109 +13,78 @@ Ultimately, when we launch the bug bounty, this repo will be made public and wil
 
 - [ ] Modify the contents of this README.md file. Describe how your code is supposed to work with links to any relevent documentation and any other criteria/details that the C4 Wardens should keep in mind when reviewing.
 
-# [Project] Bug Bounty
+# Intuition Bug Bounty
 
-[⚡️**Project:** Please add award levels below:]
-
-**Option 1:**
-
+## Award levels
 | Risk Score |  Payout |
 |------------|---------|
-| Critical | $[Insert Amount] |
-| High| $[Insert Amount] |
+| Critical | Up to $100,000 in USDC (depending upon severity and amount of funds at risk, at discretion of Intuition team) |
+| High| $3,000 - $5,000 in USDC |
+| Medium| $1,000 - $2,500 in USDC |
+| Low | $250 - $500 in USDC |
 
+## Background on Intuition
 
-**Option 2:**
+### What is Intuition?
 
-- **Until TVL exceeds $[Insert Amount]:**
-    - Max Critical Payout: $[Insert Amount] USDC/USDT/Other
-    - High Severity Payout: $[Insert Amount] USDC/USDT/Other
-- **After TVL exceeds $[Insert Amount]:**
-    - Max Critical Payout: $[Insert Amount] USDC/USDT/Other
-    - High Severity Payout: $[Insert Amount] USDC/USDT/Other
+Intuition is an Ethereum-based attestation protocol that makes it easy to create, explore, and incentivize verifiable information. It focuses on a flexible data layer for Web3 where many-to-one relationships between identities and claims are supported and token-based incentive mechanics encourage high-quality data creation. Intuition's flagship app, Portal, enables users to create, navigate, aggregate, and curate attestations about people and entities in the Web3 ecosystem.
 
-## Background on [⚡️ Insert Project Name]
+### How does it work (high-level)?
 
-### What Is [⚡️ Insert Project Name]?
+- Intuition creates unique identifiers for people/organizations/concepts/etc (known as "atoms"), and semantic triple claims constructred from those identifiers (known as "triples") on-chain.
+- Users can deposit into the "MultiVault" contract to support or oppose atoms and triples. The value of the user's deposit increases or decreases when subsequent users deposit or withdraw from the same vaults, according to various bonding curves.
+- Users can stake TRUST to receive protocol emissions each epoch, depending upon their personal utilitzation of the Multivault and the system utilization of all users combined.
+- All smart contracts are deployed to the Intuition Network, an EVM-compatible L3, manage the attestation and incentive logic, using $TRUST token as the native currency
 
-[⚡️ **Project**: Add a short overview of the project here.]
+### Further technical resources & links
 
-### How Does It Work?
-
-[⚡️ **Project**: Add a high-level technical overview of the project here]
-
-### Further Technical Resources & Links
-
-[⚡️ **Project**: Please fill out the following information] 
-
-- **[Project Name] Docs**: Our system documentation, subject to change. [[Link]()]
-- **[Project Name] Whitepaper**: [Link]()
-- **[Project Name] Website**: [Link]()
-- **Twitter**: [@]()
-- **Discord** [Insert Discord handle here]()
+- **Website:** https://intuition.systems
+- **Documentation:** https://www.docs.intuition.systems/
+- **Whitepaper:** https://cdn.prod.website-files.com/65cdf366e68587fd384547f0/66ccda1f1b3bbf2d30c4f522_intuition_whitepaper.pdf
+- **Discord Community:** https://discord.gg/0xintuition
+- **X:** https://x.com/0xIntuition
 
 # Scope & Severity Criteria
 
-[⚡️ **Project**: Please insert any valid information around scope and severity criterias here]
+## Severity matrix:**
 
-**Option 1:**
+| Severity level | Description / Examples |
+|---|---|
+| **Critical** |  Systemic user fund loss or freezing; unauthorized manipulation of critical contract parameters (timelock, pausability); mass-scale unauthorized mint/burn of multivault shares; protocol insolvency. |
+| **High** | Direct theft of individual user funds; long-term freezing of individual user funds; ways to avoid expected fees. |
+| **Medium** | Economic loss not involving direct on-chain asset theft (short-term freezing, gas griefing, unbounded gas, essential functionality temporarily unusable); theft of unclaimed rewards/yield. |
+| **Low** | Behavioral differences from intended behavior or documentation where no funds are at risk; technical issues that lead to impersonation of Intuition team communications; minor logic/documentation mismatches; non-critical edge cases. |
 
-| Severity level | Impact: High	| Impact: Medium | Impact: Low
-|------|-------| -------------- |-------------- |
-| Likelihood: High	 | Critical | High | - |
-| Likelihood: Medium | High | - | - |
-| Likelihood: Low    | - | - | - |
+## Smart Contracts and Repos in Scope
 
-**Option 2:**
-
-| Severity level | >[Add percentage]% TVL	| [Add percentage]% TVL | <[Add percentage]% TVL
-|------|-------| -------------- |-------------- |
-| Likelihood: High	 | Critical | High | - |
-| Likelihood: Medium | Critical | High or Critical | High |
-| Likelihood: Low    | High or Critical | High | - |
-
-
-## Smart Contracts in Scope
-
-[⚡️ **Project**: Please fill in the Source and any scoping information that you deam necessary. In case you need more than one table, please copy the existing and multiply as needed]
-
-
-**Source**: [Insert codebase source here]()
-
-| Name (Address Link) | Repo |
-|------|-------|
-| [Sentinel](https://etherscan.io/address/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984) | github.com/sentinel-org/sentinel-evm |
-| [SentinelOne](https://etherscan.io/address/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984)| github.com/sentinel-org/sentinel-oracles |
-| [SentinelTwo](https://etherscan.io/address/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72) | github.com/sentinel-org/sentinel-rewards | 
-
+**Smart Contract Sources:** https://www.docs.intuition.systems/docs/developer-tools/contracts/deployments
+**Mainnet Deployed Contract Commit:** 20181c162502da226ca25c31aef47872369212c9
+**Repos:**
+- https://github.com/0xIntuition/intuition-rs
+- https://github.com/0xIntuition/intuition-ts
 
 ## Out-of-Scope
 
+[⚡️ **Project Name**] Any OOS issues? 
+
 ### Known Issues
 
-Bug reports covering previously-discovered bugs (listed below) are not eligible for a reward within this program. This includes known issues that the project is aware of but has consciously decided not to “fix”, necessary code changes, or any implemented operational mitigating procedures that can lessen potential risk. Every issue opened in the repo, closed PRs, previous contests and audits are out of scope.
+- Any issues already documented in previously opened issues, previous audits, or otherwise publicly-known vulnerabilities are **out-of-scope** for bounty rewards (reports duplicating those issues will not be paid).
+- This includes issues intentionally left as design choices or mitigated operationally by the team.
 
-[⚡️**Project:** Please provide any relevant links in a bullet format below:]
+### Previous audits
 
-
-### Previous Audits
-
-Any **previously reported** vulnerabilities mentioned in past audit reports are not eligible for a reward.
+- Any findings already reported in previous audits are not eligible for new rewards.
 
 [⚡️ **Project Name**] previous audits can be found below: [Please insert a link to your previous audits.]
 
+### Specific types of issues excluded
 
-### Specific Types of Issues
-
-**An example of that would be the following:**
-
-- Informational findings.
-- Design choices related to protocol. For example, the ability to deploy permissionless pools.
-- Issues that are ultimately user errors and can easily be caught in the frontend. For example, transfers to address(0).
-- Rounding errors.
-- Relatively high gas consumption.
-
-[⚡️**Project:** Please add any specific types of issues that should be considered out-of-scope.]
+- Informational findings (no economic or security impact)
+- Design choices documented and accepted by the protocol (e.g., permissioned/centralized upgradeability) unless they lead to a concrete exploit scenario
+- Front-end only user errors or UX mistakes that do not lead to contract-level risk
+- Rounding differences that have no economic impact
+- Known gas consumption characteristics (unless they enable an exploit)
 
 # Additional Context
 
@@ -123,7 +92,5 @@ Any **previously reported** vulnerabilities mentioned in past audit reports are 
 
 [⚡️ **Project**: Please explain your protocol's trusted roles.]
 
-
 ### Miscellaneous
-Employees of [Insert Project Name] and their family members are ineligible for bounties.
-
+Employees of Intuition and their family members are ineligible for bounties.
