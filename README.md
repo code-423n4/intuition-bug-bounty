@@ -74,7 +74,8 @@ Intuition is an Ethereum-based attestation protocol that makes it easy to create
 
 ### Previous audits
 
-- Any findings already reported in previous audits are not eligible for new rewards.
+Any findings already reported in previous audits are not eligible for new rewards.
+- https://www.docs.intuition.systems/docs/developer-tools/audit-reports
 
 [⚡️ **Project Name**] previous audits can be found below: [Please insert a link to your previous audits.]
 
