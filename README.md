@@ -46,7 +46,7 @@ Intuition is an Ethereum-based attestation protocol that makes it easy to create
 
 # Scope & Severity Criteria
 
-## Severity matrix:**
+## Severity matrix:
 
 | Severity level | Description / Examples |
 |---|---|
