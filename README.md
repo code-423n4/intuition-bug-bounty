@@ -1,18 +1,3 @@
-# Welcome to your bounty repo
-
-This file contains information around how to set-up your README.md and prepare for our collaboration.
-
-**Bug Bounties use two repos**:
-
-- a bug bounty repo (this one), which is used for scoping your bug bounty and for providing information to wardens
-- a submissions repo, where issues are submitted
-
-Ultimately, when we launch the bug bounty, this repo will be made public and will contain links to the in-scope files to be reviewed and all the information needed for bounty participants.
-
-**Action item for sponsors:**
-
-- [ ] Modify the contents of this README.md file. Describe how your code is supposed to work with links to any relevent documentation and any other criteria/details that the C4 Wardens should keep in mind when reviewing.
-
 # Intuition Bug Bounty
 
 ## Award levels
@@ -31,7 +16,7 @@ Intuition is an Ethereum-based attestation protocol that makes it easy to create
 
 ### How does it work (high-level)?
 
-- Intuition creates unique identifiers for people/organizations/concepts/etc (known as "atoms"), and semantic triple claims constructred from those identifiers (known as "triples") on-chain.
+- Intuition creates unique identifiers for people/organizations/concepts/etc (known as "atoms", or "identities" in Portal), and semantic triple claims constructred from those identifiers (known as "triples", or "claims" in Portal) on-chain.
 - Users can deposit into the "MultiVault" contract to support or oppose atoms and triples. The value of the user's deposit increases or decreases when subsequent users deposit or withdraw from the same vaults, according to various bonding curves.
 - Users can stake TRUST to receive protocol emissions each epoch, depending upon their personal utilitzation of the Multivault and the system utilization of all users combined.
 - All smart contracts are deployed to the Intuition Network, an EVM-compatible L3, manage the attestation and incentive logic, using $TRUST token as the native currency
@@ -65,8 +50,6 @@ Intuition is an Ethereum-based attestation protocol that makes it easy to create
 
 ## Out-of-Scope
 
-[⚡️ **Project Name**] Any OOS issues? 
-
 ### Known Issues
 
 - Any issues already documented in previously opened issues, previous audits, or otherwise publicly-known vulnerabilities are **out-of-scope** for bounty rewards (reports duplicating those issues will not be paid).
@@ -77,8 +60,6 @@ Intuition is an Ethereum-based attestation protocol that makes it easy to create
 Any findings already reported in previous audits are not eligible for new rewards.
 - https://www.docs.intuition.systems/docs/developer-tools/audit-reports
 
-[⚡️ **Project Name**] previous audits can be found below: [Please insert a link to your previous audits.]
-
 ### Specific types of issues excluded
 
 - Informational findings (no economic or security impact)
@@ -88,10 +69,6 @@ Any findings already reported in previous audits are not eligible for new reward
 - Known gas consumption characteristics (unless they enable an exploit)
 
 # Additional Context
-
-### Trusted Roles
-
-[⚡️ **Project**: Please explain your protocol's trusted roles.]
 
 ### Miscellaneous
 Employees of Intuition and their family members are ineligible for bounties.
