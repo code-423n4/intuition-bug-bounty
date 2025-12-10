@@ -50,8 +50,6 @@ Intuition is an Ethereum-based attestation protocol that makes it easy to create
 
 ## Out-of-Scope
 
-[⚡️ **Project Name**] Any OOS issues? 
-
 ### Known Issues
 
 - Any issues already documented in previously opened issues, previous audits, or otherwise publicly-known vulnerabilities are **out-of-scope** for bounty rewards (reports duplicating those issues will not be paid).
@@ -61,8 +59,6 @@ Intuition is an Ethereum-based attestation protocol that makes it easy to create
 
 Any findings already reported in previous audits are not eligible for new rewards.
 - https://www.docs.intuition.systems/docs/developer-tools/audit-reports
-
-[⚡️ **Project Name**] previous audits can be found below: [Please insert a link to your previous audits.]
 
 ### Specific types of issues excluded
 
@@ -74,9 +70,7 @@ Any findings already reported in previous audits are not eligible for new reward
 
 # Additional Context
 
-### Trusted Roles
-
-[⚡️ **Project**: Please explain your protocol's trusted roles.]
-
 ### Miscellaneous
 Employees of Intuition and their family members are ineligible for bounties.
+
+Bounty recipients will be required to provide sufficient personal information to the Intuition team to determine eligibilty for payout. Recipients from OFAC-sanctioned locations will be ineligible for payout.
