@@ -16,7 +16,7 @@ Intuition is an Ethereum-based attestation protocol that makes it easy to create
 
 ### How does it work (high-level)?
 
-- Intuition creates unique identifiers for people/organizations/concepts/etc (known as "atoms"), and semantic triple claims constructred from those identifiers (known as "triples") on-chain.
+- Intuition creates unique identifiers for people/organizations/concepts/etc (known as "atoms", or "identities" in Portal), and semantic triple claims constructred from those identifiers (known as "triples", or "claims" in Portal) on-chain.
 - Users can deposit into the "MultiVault" contract to support or oppose atoms and triples. The value of the user's deposit increases or decreases when subsequent users deposit or withdraw from the same vaults, according to various bonding curves.
 - Users can stake TRUST to receive protocol emissions each epoch, depending upon their personal utilitzation of the Multivault and the system utilization of all users combined.
 - All smart contracts are deployed to the Intuition Network, an EVM-compatible L3, manage the attestation and incentive logic, using $TRUST token as the native currency
