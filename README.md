@@ -72,5 +72,3 @@ Any findings already reported in previous audits are not eligible for new reward
 
 ### Miscellaneous
 Employees of Intuition and their family members are ineligible for bounties.
-
-Bounty recipients will be required to provide sufficient personal information to the Intuition team to determine eligibilty for payout. Recipients from OFAC-sanctioned locations will be ineligible for payout.
