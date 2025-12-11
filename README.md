@@ -47,6 +47,7 @@ Intuition is an Ethereum-based attestation protocol that makes it easy to create
 - **Repos:**
   - https://github.com/0xIntuition/intuition-rs
   - https://github.com/0xIntuition/intuition-ts
+  - https://github.com/0xIntuition/intuition-contracts-v2
 
 ## Out-of-Scope
 
