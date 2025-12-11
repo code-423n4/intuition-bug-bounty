@@ -42,12 +42,10 @@ Intuition is an Ethereum-based attestation protocol that makes it easy to create
 
 ## Smart Contracts and Repos in Scope
 
-- **Smart Contract Sources:** https://www.docs.intuition.systems/docs/developer-tools/contracts/deployments
-- **Mainnet Deployed Contract Commit:** `20181c162502da226ca25c31aef47872369212c9`
 - **Repos:**
-  - https://github.com/0xIntuition/intuition-rs
-  - https://github.com/0xIntuition/intuition-ts
   - https://github.com/0xIntuition/intuition-contracts-v2
+- **Smart Contract Deployments:** https://www.docs.intuition.systems/docs/developer-tools/contracts/deployments
+- **Mainnet Deployed Contract Commit:** `20181c162502da226ca25c31aef47872369212c9`
 
 ## Out-of-Scope
 
