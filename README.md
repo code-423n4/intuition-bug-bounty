@@ -7,9 +7,9 @@
 | Risk Score |  Payout |
 |------------|---------|
 | Critical | Up to $100,000 in USDC (depending upon severity and amount of funds at risk, at discretion of Intuition team) |
-| High| $3,000 - $5,000 in USDC |
-| Medium| $1,000 - $2,500 in USDC |
-| Low | $250 - $500 in USDC |
+| High| &#36;3,000 - &#36;5,000 in USDC |
+| Medium| &#36;1,000 - &#36;2,500 in USDC |
+| Low | &#36;250 - &#36;500 in USDC |
 
 ## Background on Intuition
 
