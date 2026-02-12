@@ -74,3 +74,5 @@ Any findings already reported in previous audits are not eligible for new reward
 
 ### Miscellaneous
 Employees of Intuition and their family members are ineligible for bounties.
+
+Reward amounts may be displayed using a dollar sign for simplicity, but the underlying valuation is based on a USD-pegged digital asset such as USDC. Because the displayed figure reflects a USD reference value rather than a fiat currency payment, the final amount delivered in the corresponding token may differ slightly at the time of payout.
