@@ -54,6 +54,10 @@ Intuition is an Ethereum-based attestation protocol that makes it easy to create
 
 ### Known Issues
 
+Bug reports covering previously-discovered bugs (listed below) are not eligible for a reward within this program. This includes known issues that the project is aware of but has consciously decided not to “fix”, necessary code changes, or any implemented operational mitigating procedures that can lessen potential risk. Every issue opened in the repo, closed PRs, previous contests and audits are out of scope.
+
+All issues submitted by wardens to the Intuition bounty will be added to [this repo](https://github.com/code-423n4/intuition-bug-bounty/issues?q=is%3Aissue%20state%3Aclosed) once they have been reviewed by the sponsors. These are considered known issues and are out-of-scope for bounty rewards.
+
 - Any issues already documented in previously opened issues, previous audits, or otherwise publicly-known vulnerabilities are **out-of-scope** for bounty rewards (reports duplicating those issues will not be paid).
 - This includes issues intentionally left as design choices or mitigated operationally by the team.
 
