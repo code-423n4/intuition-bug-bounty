@@ -66,6 +66,17 @@ All issues submitted by wardens to the Intuition bounty will be added to [this r
 Any findings already reported in previous audits are not eligible for new rewards.
 - https://www.docs.intuition.systems/docs/developer-tools/audit-reports
 
+[Intuition concluded a Code4rena competitive audit on Monday, March 9, 2026.](https://code4rena.com/audits/2026-03-intuition) Judging is currently in progress, and findings will be published once complete.
+Any vulnerabilities identified during the competitive audit are considered known issues and are ineligible for bounty rewards, even if the audit results have not yet been publicly released. This includes:
+
+- Issues currently under review by judges
+- Findings awaiting remediation
+- Any vulnerability similar in nature to those discovered during the audit
+
+Once the competitive audit results are published, they will be linked here for full transparency. 
+
+If you're unsure whether your finding may have been covered in the audit, we encourage you to submit anyway; we'll review all submissions and provide feedback on eligibility.
+
 ### Specific types of issues excluded
 
 - Informational findings (no economic or security impact)
